@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-bar {
+  background-color: #f14646;
+  padding: 1rem 0.5rem;
+}
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  
+}
+.footer-content {
+  display: flex;
+  background-color: #978282;
+  padding: 2rem 1rem 0.5rem;
+  
+}
