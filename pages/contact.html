@@ -3,29 +3,42 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>About Us</title>
+  <title>Contact</title>
   <link rel="stylesheet" href="../Style.css" />
   <link rel="stylesheet" href="../nav/nav.css" />
   <link rel="stylesheet" href="../footer/footer.css" />
-  <link rel="stylesheet" href="../pages/about.css" />
-  <link rel="stylesheet" href="../pages/products.css" />
   <link rel="stylesheet" href="../pages/contact.css" />
-  <link rel="stylesheet" href="../pages/index.css" />
 </head>
 <body>
-  <!-- Dynamic Navbar -->
   <div id="nav-placeholder"></div>
 
-  <!-- Main Content -->
-  <main class="main-content">
-    <h1>Contact info and forum</h1>
+  <main class="contact-container">
 
+    <div class="contact-header">
+      <h1>Get in Touch</h1>
+      <p>Have any questions or inquiries? Contact us using the form below or
+        <br>any of our contact methods.</p>
+    </div>
+    <div class="contact-info">
+      <h2>Contact Information</h2><br>
+      <strong>Adress</strong>
+      <Address>Klostergatan 14
+        Lund, Sweden</Address><br>
+      <strong>Email</strong>
+      <Email><br>munamii@cakery.com</Email><br>
+      <Hours><strong><br>Business Hours</strong><br>Monday - Friday: 9:00 AM - 5:00 PM</Hours>
+    </div>
+
+    <h2>Send us a Message</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
   </main>
 
-  <!-- Dynamic Footer -->
   <div id="footer-placeholder"></div>
-
-  <!-- JS loader -->
   <script src="../dynamicLoader.js"></script>
 </body>
 </html>

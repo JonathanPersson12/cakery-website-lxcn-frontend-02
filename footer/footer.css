@@ -1,20 +1,45 @@
 .footer-wrapper {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
   background-color: #978282;
-  color: white;
-  font-size: 1rem;
 }
-
 .footer-content {
   display: flex;
-  background-color: #978282;
   font-size: 13px;
-  padding: 0.5rem;
+
 }
 
 .footer-content p {
   color: #fff;
   padding: 1rem;
   font-weight: bold;
+  margin: 0;
+}
+
+h3 {
+  color: #fff;
+  font-size: 1.5rem;
+  margin: 0;
+  padding: 1rem;
+  text-align: right;
+}
+
+.footer-links {
   display: flex;
+  justify-content: right;
+  align-items: center;
+  gap: 1rem;
+  margin-left: auto;
+  padding: 1rem;
+}
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
 }
 
