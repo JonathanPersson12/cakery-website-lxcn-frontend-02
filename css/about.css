@@ -1,0 +1,138 @@
+:root {
+  --color-primary: #C97B84;       /* Rose Mauve */
+  --color-secondary: #FFF2E2;     /* Vanilla Cream */
+  --color-accent: #D4B2D8;        /* Dusty Lilac */
+  --color-dark: #4B3B3B;          /* Cocoa Brown */
+  --color-gold: #E9C46A;          /* Champagne Gold */
+}
+/* General styling for the about page */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--color-secondary); /* Vanilla Cream background */
+  color: var(--color-dark); /* Cocoa Brown text */
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+h1, h2 {
+  text-align: center;
+  color: var(--color-primary); /* Rose Mauve for headings */
+  text-transform: uppercase;
+  margin: 2rem 0 1rem;
+  letter-spacing: 1.5px;
+}
+
+.about-section p {
+  text-align: justify;
+  font-size: 1.1rem;
+  color: var(--color-dark); /* Cocoa Brown for readability */
+  margin-bottom: 0.5rem;
+}
+
+/* Styling for the about section */
+.about-section {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.about-section h1 {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.about-section h1::after {
+  content: '';
+  display: block;
+  width: 100px;
+  height: 4px;
+  background-color: var(--color-accent); /* Dusty Lilac for decoration */
+  margin: 0.5rem auto;
+  border-radius: 2px;
+}
+
+.about-section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+.about-section h2::after {
+  content: '';
+  display: block;
+  width: 80px;
+  height: 3px;
+  background-color: var(--color-accent); /* Dusty Lilac for decoration */
+  margin: 0.5rem auto;
+  border-radius: 2px;
+}
+
+/* Individual article styling */
+.about-section article {
+  background-color: var(--color-secondary); /* Vanilla Cream background */
+  border: 3px solid var(--color-primary); /* Rose Mauve border */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  overflow: hidden;
+  transition: all 0.3s ease;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.about-section article:hover {
+  border-color: var(--color-gold); /* Champagne Gold border on hover */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+  transform: scale(1.03); /* Slightly enlarge the block */
+}
+
+/* Styling for unordered lists */
+.about-section ul {
+  list-style-type: disc;
+  margin: 1rem 0;
+  padding-left: 2rem;
+  color: var(--color-dark);
+}
+
+.about-section ul li {
+  margin-bottom: 0.8rem;
+  font-size: 1.1rem;
+}
+
+.about-section ul li strong {
+  color: var(--color-primary); /* Highlighted values */
+}
+
+/* Links styling */
+.about-section a {
+  color: var(--color-primary);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.about-section a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .about-section {
+    padding: 1rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+  }
+
+  p {
+    font-size: 1.1rem;
+  }
+
+  .about-section ul li {
+    font-size: 1rem;
+  }
+}

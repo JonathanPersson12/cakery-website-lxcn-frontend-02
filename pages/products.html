@@ -1,26 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>About Us</title>
-  <link rel="stylesheet" href="../Style.css" />
-  <link rel="stylesheet" href="../nav/nav.css" />
-  <link rel="stylesheet" href="../footer/footer.css" />
-  <link rel="stylesheet" href="../pages/products.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Sweet Bliss Cakery</title>
+    <link rel="stylesheet" href="../css/products.css">
+    <link rel="stylesheet" href="../css/Style.css">
+    <link rel="stylesheet" href="../components/navbar/navbar.css">
+    <link rel="stylesheet" href="../components/footer/footer.css">
+</head>
 <body>
-  <!-- Dynamic Navbar -->
-  <div id="nav-placeholder"></div>
+    <!-- Navbar -->
+    <header>
+        <!-- Include Navbar -->
+        <div id="navbar"></div>
+    </header>
 
-  <!-- Main Content -->
-  <main class="main-content">
-    <h1>Products shows here</h1>
-  </main>
+    <main>
+            <h1>Our Products</h1>
+            <p>Explore our most popular cakes </p>
+        <section class="products-section">
+            <h1>Featured products</h1>
+            <div class="product-grid">
+                <!--Shows 3 Featured Cupcakes-->
+                <div class="product-card">
+                    <img src="../Bilder/Lemon-Zest-Cupcake.png" alt="Lemon Zest Cupcake">
+                    <h2>Lemon Zest</h2>
+                    <p>Delicious lemon cupcakes with a zesty lemon frosting.</p>
+                    <div class="price">$12.99</div>
+                    <a href="#" class="buy-button">Buy Now</a>
+                </div>
+                <div class="product-card">
+                    <img src="../Bilder/Chocolate-Cupcake.png" alt="Chocolate Cake">
+                    <h2>Chocolate Delight</h2>
+                    <p>Rich and moist chocolate cake with creamy chocolate frosting.</p>
+                    <div class="price">$15.99</div>
+                    <a href="#" class="buy-button">Buy Now</a>
+                </div>
+                <div class="product-card">
+                    <img src="../Bilder/Vanilla-Cupcake.png" alt="Vanilla Cake">
+                    <h2>Vanilla Bliss</h2>
+                    <p>Classic vanilla cake with a swirl of vanilla buttercream.</p>
+                    <div class="price">$14.99</div>
+                    <br>
+                    <a href="#" class="buy-button">Buy Now</a>
+                </div>
+                <!--Shows 3 Featured Wedding cakes-->
+                <div class="product-card">
+                    <img src="../Bilder/Elegant-Weddingcake.png" alt="Elegant Wedding Cake">
+                    <h2>Elegant Wedding Cake</h2>
+                    <p>A stunning three-tiered wedding cake with floral decorations.</p>
+                    <div class="price">$149.99</div>
+                    <a href="#" class="buy-button">Buy Now</a>
+                </div>
+                <div class="product-card">
+                    <img src="../Bilder/Floral-Weddingcake.png" alt="Floral Wedding Cake">
+                    <h2>Floral Wedding Cake</h2>
+                    <p>A beautiful wedding cake adorned with fresh flowers.</p>
+                    <div class="price">$169.99</div>
+                    <a href="#" class="buy-button">Buy Now</a>
+                </div>
+                <div class="product-card">
+                    <img src="../Bilder/Classic-Weddingcake.png" alt="Classic Wedding Cake">
+                    <h2>Classic Wedding Cake</h2>
+                    <p>A timeless wedding cake with elegant design and flavors.</p>
+                    <div class="price">$159.99</div>
+                    <a href="#" class="buy-button">Buy Now</a>
+            </div>
+        </section>
+    </main>
 
-  <!-- Dynamic Footer -->
-  <div id="footer-placeholder"></div>
+    <!-- Footer -->
+    <footer>
+        <!-- Include Footer -->
+        <div id="footer"></div>
+    </footer>
 
-  <!-- JS loader -->
-  <script src="../dynamicLoader.js"></script>
+    <script src="../js/dynamicLoader.js"></script>
 </body>
 </html>

@@ -1,27 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Document</title>
-  <link rel="stylesheet" href="Style.css">
-  
-  <link rel="stylesheet" href="../nav/nav.css">
-  <link rel="stylesheet" href="../footer/footer.css">
-  <link rel="stylesheet" href="../main-content/main-content.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sweet Bliss Cakery</title>
+  <link rel="stylesheet" href="css/Style.css">
+  <link rel="stylesheet" href="./components/navbar/navbar.css">
+  <link rel="stylesheet" href="./components/footer/footer.css">
 </head>
 <body>
-  <div id="nav-placeholder"></div>
+  <!-- Navbar -->
+  <header>
+    <div id="navbar"></div>
+  </header>
 
-  <main class="home-hero">
-    <section class="intro">
-      <h1>Welcome to Sweet Bliss Cakery</h1>
-      <p>Delicious cupcakes and elegant wedding cakes made with love.</p>
-      <a href="../pages/products.html" class="btn">Shop Now</a>
+  <!-- Hero Section -->
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <img src="./Bilder/Homepage-background.png" alt="Sweet Bliss Cakery Logo" class="logo">
+        <h1>Welcome to Sweet Bliss Cakery</h1>
+        <p>Delicious cakes and treats for every occasion.</p>
+        <a href="./pages/products.html" class="btn">Explore Our Products</a>
+      </div>
+    </section>
+
+    <!-- Featured Products Section -->
+    <section class="featured-products">
+      <h2>Our Featured Products</h2>
+      <div class="product-grid">
+        <div class="product-card">
+          <img src="./Bilder/Cupcakes.jpg" alt="Cupcakes">
+          <h3>Cupcakes</h3>
+          <p>Delightful cupcakes for every celebration.</p>
+          <a href="./pages/cupcakes.html" class="btn">View Cupcakes</a>
+        </div>
+        <div class="product-card">
+          <img src="./Bilder/Wedding Cake.jpg" alt="Wedding Cakes">
+          <h3>Wedding Cakes</h3>
+          <p>Elegant cakes for your special day.</p>
+          <a href="./pages/wedding cakes.html" class="btn">View Wedding Cakes</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about">
+      <h2>About Us</h2>
+      <p>At Sweet Bliss Cakery, we create delicious cakes and treats that make every occasion unforgettable. Our passion for baking and attention to detail ensure that every bite is a masterpiece.</p>
+      <a href="./pages/about.html" class="btn">Learn More About Us</a>
     </section>
   </main>
 
-  <div id="footer-placeholder"></div>
-  <script src="dynamicLoader.js"></script>
+  <!-- Footer -->
+  <footer>
+    <div id="footer"></div>
+  </footer>
+
+  <script src="./js/dynamicLoader.js"></script>
+  <script src="./components/navbar/hamburgermenu.js"></script>
 </body>
 </html>

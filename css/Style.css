@@ -1,0 +1,183 @@
+:root {
+  --color-primary: #C97B84;       /* Rose Mauve */
+  --color-secondary: #FFF2E2;     /* Vanilla Cream */
+  --color-accent: #D4B2D8;        /* Dusty Lilac */
+  --color-dark: #4B3B3B;          /* Cocoa Brown */
+  --color-gold: #E9C46A;          /* Champagne Gold */
+}
+/* General Styling */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--color-secondary); /* Vanilla Cream background */
+  color: var(--color-dark); /* Cocoa Brown text */
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+h1, h2 {
+  text-align: center;
+  color: var(--color-primary); /* Rose Mauve for headings */
+  text-transform: uppercase;
+  margin: 2rem 0 1rem;
+  letter-spacing: 1.5px;
+}
+
+p {
+  text-align: center;
+  font-size: 1.2rem;
+  color: var(--color-dark); /* Cocoa Brown for readability */
+  margin-bottom: 2rem;
+}
+
+/* Hero Section */
+.hero {
+  background-image: url('./Bilder/Homepage-background.png');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 5rem 2rem;
+  color: var(--color-secondary); /* Vanilla Cream text */
+}
+
+.hero-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.hero .btn {
+  background-color: var(--color-primary); /* Rose Mauve button */
+  color: var(--color-secondary); /* Vanilla Cream text */
+  padding: 1rem 2rem;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  font-size: 1rem;
+}
+
+.hero .btn:hover {
+  background-color: var(--color-accent); /* Dusty Lilac for button */
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+/* Featured Products Section */
+.featured-products {
+  padding: 0 2rem;
+  background-color: var(--color-secondary); /* Vanilla Cream background */
+}
+
+.featured-products h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.product-card {
+  background-color: var(--color-secondary); /* Vanilla Cream background */
+  border: 3px solid var(--color-primary); /* Rose Mauve border */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  text-align: center;
+  padding: 1.5rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.product-card h3 {
+  font-size: 1.5rem;
+  color: var(--color-primary); /* Rose Mauve for product titles */
+  margin-bottom: 0.5rem;
+}
+
+.product-card p {
+  font-size: 1rem;
+  color: var(--color-dark); /* Cocoa Brown for descriptions */
+  margin-bottom: 1rem;
+}
+
+.product-card .btn {
+  background-color: var(--color-primary); /* Rose Mauve on hover */
+  color: var(--color-secondary); /* Vanilla Cream text */
+  padding: 0.8rem 1.5rem;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+.product-card .btn:hover {
+  background-color: var(--color-accent); /* Dusty Lilac for button */
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Deeper shadow on hover */
+
+}
+
+/* Hover effect for cupcake items */
+.product-card:hover {
+  border-color: var(--color-accent); /* Dusty Lilac for button */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+  transform: scale(1.03); /* Slightly enlarge the card */
+}
+
+/* About Section */
+.about {
+  padding: 3rem 2rem;
+  text-align: center;
+  background-color: var(--color-secondary); /* Vanilla Cream background */
+}
+
+.about h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.about p {
+  max-width: 800px;
+  margin: 0 auto 2rem;
+}
+
+.about .btn {
+  background-color: var(--color-primary); /* Rose Mauve button */
+  color: var(--color-secondary); /* Vanilla Cream text */
+  padding: 1rem 2rem;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.about .btn:hover {
+  background-color: var(--color-accent); /* Dusty Lilac for button */
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}

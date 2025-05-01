@@ -1,0 +1,146 @@
+
+/* General styling for the products page */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--color-secondary); /* Vanilla Cream background */
+  color: var(--color-dark); /* Cocoa Brown text */
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+h1 {
+  text-align: center;
+  color: var(--color-primary); /* Rose Mauve for headings */
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+p {
+  text-align: center;
+  font-size: 1.2rem;
+  color: var(--color-dark); /* Cocoa Brown for readability */
+  margin-bottom: -1rem;
+  margin-top: -1rem; /* Adjusted margin for better spacing */
+}
+
+/* Styling for the products section */
+.products-section {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.products-section h1 {
+  font-size: 1.9rem;
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.products-section h1::after {
+  content: '';
+  display: block;
+  width: 100px;
+  height: 4px;
+  background-color: var(--color-primary); /* Rose Mauve for decoration */
+  margin: 0.5rem auto;
+  border-radius: 2px;
+}
+
+/* Product grid layout */
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+  padding-bottom: 5rem;
+}
+
+/* Individual product card styling */
+.product-card {
+  background-color: var(--color-secondary); /* Vanilla Cream background */
+  border: 3px solid var(--color-primary); /* Rose Mauve border */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  overflow: hidden;
+  transition: all 0.3s ease;
+  text-align: center;
+  padding: 1.5rem;
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.product-card h2 {
+  font-size: 1.5rem;
+  color: var(--color-primary); /* Rose Mauve for product titles */
+  margin-bottom: 0.5rem;
+}
+
+.product-card p {
+  font-size: 1rem;
+  color: var(--color-dark); /* Cocoa Brown for descriptions */
+  margin-bottom: 1rem;
+}
+
+/* Price styling */
+.product-card .price {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: var(--color-gold); /* Champagne Gold for price */
+  margin-bottom: 1rem;
+}
+
+/* Buy Now button styling */
+.product-card .buy-button {
+  background-color: var(--color-primary); /* Rose Mauve on hover */
+  color: var(--color-secondary); /* Vanilla Cream text color */
+  padding: 0.8rem 1.5rem;
+  text-decoration: none;
+  border-radius: 8px; /* Slightly more rounded corners for a modern look */
+  font-weight: bold;
+  font-size: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card .buy-button:hover {
+  background-color: var(--color-accent); /* Dusty Lilac for button */
+  color: var(--color-secondary); /* Vanilla Cream text color on hover */
+  transform: scale(1.1); /* Slightly enlarge the button on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+/* Hover effect for cupcake items */
+.product-card:hover {
+  border-color: var(--color-accent); /* Dusty Lilac for button */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+  transform: scale(1.03); /* Slightly enlarge the card */
+}
+
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .products-section {
+      padding: 1rem;
+  }
+
+  h1 {
+      font-size: 2rem;
+  }
+
+  .product-card {
+      padding: 1rem;
+  }
+
+  .product-card h2 {
+      font-size: 1.3rem;
+  }
+
+  .product-card p {
+      font-size: 0.9rem;
+  }
+}
