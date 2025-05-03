@@ -27,7 +27,7 @@ The website showcases the bakery's products, provides information about the busi
 ---
 
 ## Folder Structure
-'''
+```
 cakery-website-lxcn-frontend-02/
 ├── index.html                # Main homepage of the website
 ├── assets/                   # Contains all static assets (images, icons, scripts)
@@ -56,7 +56,7 @@ cakery-website-lxcn-frontend-02/
 │   ├── cupcakes.html         # Product listing for cupcakes
 │   ├── products.html         # General product/shop overview page
 │   └── wedding-cakes.html    # Product listing for wedding cakes
-'''
+```
 
 ---
 
@@ -73,8 +73,8 @@ cakery-website-lxcn-frontend-02/
 ## Setup Instructions
 
 1. Clone the repository:
-   ```bash
-   *git clone https://github.com/JonathanPersson12/cakery-website-lxcn-frontend-02.git*
+   ```
+   git clone https://github.com/JonathanPersson12/cakery-website-lxcn-frontend-02.git
 
 2. Navigate to the project directory:
 cd cakery-website-lxcn-frontend-02
@@ -102,7 +102,9 @@ Provides information about the bakery's mission, history, values, and team.
 6. Contact Page (pages/contact.html)
 Includes a contact form for inquiries and displays the bakery's location on a map.
 
-Credits
+---
+
+## Credits
 Images: All images are stored in the Bilder/ folder.
 Icons: Social media icons are sourced from Font Awesome.
 Design Inspiration: Custom design inspired by modern bakery websites.
