@@ -27,7 +27,7 @@ The website showcases the bakery's products, provides information about the busi
 ---
 
 ## Folder Structure
-
+'''
 cakery-website-lxcn-frontend-02/
 ├── index.html                # Main homepage of the website
 ├── assets/                   # Contains all static assets (images, icons, scripts)
@@ -56,3 +56,53 @@ cakery-website-lxcn-frontend-02/
 │   ├── cupcakes.html         # Product listing for cupcakes
 │   ├── products.html         # General product/shop overview page
 │   └── wedding-cakes.html    # Product listing for wedding cakes
+'''
+
+---
+
+## Technologies Used
+
+- **HTML5**: For structuring the content.
+- **CSS3**: For styling and layout, including responsive design.
+- **JavaScript**: For dynamic loading of components and interactivity.
+- **Font Awesome**: For icons used in the contact page.
+- **Google Maps Embed API**: For displaying the bakery's location.
+
+---
+
+## Setup Instructions
+
+1. Clone the repository:
+   ```bash
+   *git clone https://github.com/JonathanPersson12/cakery-website-lxcn-frontend-02.git*
+
+2. Navigate to the project directory:
+cd cakery-website-lxcn-frontend-02
+
+3. Open Index.html in your browser to view the website.
+
+Pages Overview
+1. Homepage (Index.html)
+Features a hero section with a welcome message and a call-to-action button.
+Highlights featured products (cupcakes and wedding cakes).
+Includes an "About Us" section with a link to the detailed About page.
+
+2. Products Page (pages/products.html)
+Displays a grid of featured cupcakes and wedding cakes with descriptions and prices.
+
+3. Cupcakes Page (pages/cupcakes.html)
+Showcases a gallery of cupcakes with detailed descriptions and prices.
+
+4. Wedding Cakes Page (pages/wedding cakes.html)
+Displays a gallery of wedding cakes with detailed descriptions and prices.
+
+5. About Page (pages/about.html)
+Provides information about the bakery's mission, history, values, and team.
+
+6. Contact Page (pages/contact.html)
+Includes a contact form for inquiries and displays the bakery's location on a map.
+
+Credits
+Images: All images are stored in the Bilder/ folder.
+Icons: Social media icons are sourced from Font Awesome.
+Design Inspiration: Custom design inspired by modern bakery websites.
