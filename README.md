@@ -65,7 +65,7 @@ cakery-website-lxcn-frontend-02/
 - **HTML5**: For structuring the content.
 - **CSS3**: For styling and layout, including responsive design.
 - **JavaScript**: For dynamic loading of components and interactivity.
-- **Font Awesome**: For icons used in the contact page.
+- **Font Awesome**: For icons used in the footer bar.
 - **Google Maps Embed API**: For displaying the bakery's location.
 
 ---
